@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbarSupportedContent{
+    color: rgb(214, 214, 239);
+    padding-right: 0;
+    padding-left: 50%;
+
+}
+img{
+    height:40px;
+    width: 40px;
+}
+
+.input{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        height: 93vh;
+        margin: 0;
+        padding-top: 0px;
+        background-color: rgb(182, 226, 244);
+        /* background: url('diabetes.jpeg')no-repeat; */
+        background-position: center ;
+        background-size: cover;
+    
+    
+    
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    
+    form {
+
+        padding-top: 0px;
+        border-radius: 8px;
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+        max-width: 500px;
+        width: 100%;
+    }
+   input {
+        width: 50%;
+        padding: 2px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    } 
+    
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    
+    input, select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+    }
+
+
+button{
+   
+   margin: auto;
+     width: 20%; 
+    height: 40px;
+    border-radius: 40px;
+    background:greenyellow;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+button:hover {
+    background-color: #45a049;
+} 
